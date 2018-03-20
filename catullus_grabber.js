@@ -1,4 +1,4 @@
-const CATULLUS_URL = "https://www.perseus.tufts.edu/hopper/xmlchunk?doc=Perseus:text:1999.02.0003:poem=";
+const CATULLUS_URL = "http://www.perseus.tufts.edu/hopper/xmlchunk?doc=Perseus:text:1999.02.0003:poem=";
 
 function getCatullus(){
 	poemNumber = document.getElementById('catullusSelector').value;
