@@ -1,4 +1,4 @@
-const WORD_LOOKUP_URL = "http://www.perseus.tufts.edu/hopper/xmlmorph?lang=la&lookup=";
+const WORD_LOOKUP_URL = "https://www.perseus.tufts.edu/hopper/xmlmorph?lang=la&lookup=";
 
 function generateClickableText(){
 	var clickableTextContainer = document.getElementById('clickableText');
