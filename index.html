@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<style>
+			.clickableText{
+				padding-right: 5px;
+				text-decoration: none;
+			}
+			
+			.catullus{
+				position: absolute;
+				top: 40px;
+				right: 20px;
+				border: 1px solid black;
+				padding: 5px;
+				background: white;
+			}
+		</style>
+		<script type="text/javascript" src="xml_to_json.js"></script>
+		<script type="text/javascript" src="latin_autodef.js"></script>
+		<script type="text/javascript" src="catullus_grabber.js"></script>
+	</head>
+	<body>
+		<h1>My really amazing latin auto glosser thing</h1>
+		<textarea id="input"></textarea>
+		<input type="button" onclick="generateClickableText();" value="Go!"></input>
+		<hr>
+		<div id="clickableText"></div>
+		<hr>
+		<div id="analysisButtons"></div>
+		<hr>
+		<div id="wordGloss"></div>
+		
+		<div class="catullus">which catullus? <br />
+		<input type="number" id="catullusSelector"></input>
+		<input type="button" onclick="getCatullus();" value="gimme dat catullus boi"></value></div>
+		
+		
+	</body>
+</html>
