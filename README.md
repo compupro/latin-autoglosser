@@ -1,7 +1,4 @@
 # latin-autoglosser
-A JS web app that automatically glosses Latin text using Perseus XML data
-it's super in development
-it doesn't even work across the internet because Perseus doesn't have https
+A JS web app that automatically glosses Latin text using Perseus XML data. It is in an insanely in-development stage (and also the development is in hiatus).
 
-there will be a dictionary lookup feature whenever I find time to do it
-and also it's 12:40 in the morning so goodbye
+Unfortunately because Tuft's Perseus API doesn't support HTTPS, you have to enable insecure connections on the page for this to work.
